@@ -2,7 +2,7 @@ import axios from "axios";
 
 export const BASE_URL =
   process.env.NODE_ENV === "development"
-    ? `https://furniture-project-10.onrender.com/`
+    ? `http://localhost:5000`
     : process.env.BASE_URL;
 
 

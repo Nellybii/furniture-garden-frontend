@@ -63,7 +63,7 @@ const Header = () => {
 
         {isAuthenticated ? (
           <>
-            <Link to="/profile">
+            <Link href="/profile">
               <Avatar src="https://bit.ly/broken-link" />
             </Link>
             <Link href="/AdminPage">ADMIN</Link>
