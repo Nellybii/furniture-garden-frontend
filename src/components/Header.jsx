@@ -61,15 +61,6 @@ const Header = () => {
 
 
 
-
-
-
-
-
-
-
-
-
         {isAuthenticated ? (
           <>
             <Link to="/profile">
