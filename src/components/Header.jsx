@@ -7,7 +7,6 @@ import {
  Link,
  Image,
  HStack,
- Spacer, // Import Spacer for flexible space
  useColorMode,
  IconButton,
  Avatar,
@@ -58,6 +57,7 @@ const Header = () => {
         <Link href="/products">PRODUCTS</Link>
         <Link href="/review">REVIEWS</Link>
         <Link href="/signup">SIGNUP</Link>
+        <Link href="/pay">PAYMENT</Link>
 
 
 
@@ -67,7 +67,9 @@ const Header = () => {
               <Avatar src="https://bit.ly/broken-link" />
             </Link>
             <Link href="/AdminPage">ADMIN</Link>
+            {/* <Link href="/customers">All Customer</Link> */}
             <Link onClick={logout}>Logout</Link>
+            
           </>
         ) : (
           <Link href="/signin">SIGN IN</Link>
