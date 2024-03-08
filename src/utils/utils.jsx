@@ -6,7 +6,7 @@ export const BASE_URL =
     : `https://furniture-project25.onrender.com/`;
 
     export const api = axios.create({
-      baseURL: BASE_URL,
+      baseURL: `https://furniture-project25.onrender.com/`,
       responseType: "json",
       headers: {
         Authorization: `Bearer ${localStorage.getItem("token")}`,
